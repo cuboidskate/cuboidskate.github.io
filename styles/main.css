@@ -20,3 +20,16 @@ p1{
     font-size: 30px;
     font-family: "Rubik Burned", system-ui;
 }
+.container {
+  column-count: 3;
+}
+.container {
+  column-width: 10em;
+}
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
