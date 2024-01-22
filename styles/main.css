@@ -51,4 +51,21 @@ h1 {
     font-size: 4rem;
   }
 }
+* {
+  box-sizing: border-box;
+}
 
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background: blue;
+}
