@@ -2,10 +2,6 @@ body {
     background-color: midnightblue  ;
     text-align: center; 
 }
-h1{
-    font-size: 100px;
-    margin-bottom: 200px;
-}
 p{
     font-size: 30px;
 }
@@ -33,3 +29,26 @@ p1{
 .item {
   flex: 1;
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+img,
+picture,
+video {
+  max-width: 100%;
+}
+html {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
