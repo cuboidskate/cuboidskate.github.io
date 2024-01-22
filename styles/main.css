@@ -16,40 +16,8 @@ p1{
     font-size: 30px;
     font-family: "Rubik Burned", system-ui;
 }
-.container {
-  column-count: 3;
-}
-.container {
-  column-width: 10em;
-}
-.container {
-  display: flex;
-}
-
-.item {
-  flex: 1;
-}
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-img,
-picture,
-video {
-  max-width: 100%;
-}
-html {
-  font-size: 1em;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 4rem;
-  }
+h1{
+    font-size: 70px;
 }
 * {
   box-sizing: border-box;
